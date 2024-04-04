@@ -5,14 +5,14 @@ using UnityEngine;
 public class CoheteScript : MonoBehaviour
 {
     public float speed;
-    public GameObject fuego; // Objeto de fuego
+    public GameObject fuego;
 
-    private bool coheteDespegado = false; // Variable para controlar si el cohete ha despegado
+    private bool coheteDespegado = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        fuego.SetActive(false); // Desactivar el fuego al inicio
+        fuego.SetActive(false);
     }
 
     // Update is called once per frame
