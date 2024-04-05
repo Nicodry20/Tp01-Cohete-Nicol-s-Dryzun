@@ -20,7 +20,7 @@ public class CoheteScript : MonoBehaviour
     {
         transform.Translate(0, speed, 0);
 
-        // Activar el fuego cuando el cohete despega
+
         if (!coheteDespegado && speed > 0)
         {
             fuego.SetActive(true);
