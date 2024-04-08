@@ -522,7 +522,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1797579879}
   - component: {fileID: 1797579878}
-  - component: {fileID: 1797579877}
   m_Layer: 0
   m_Name: Cohete_Fuego
   m_TagString: Untagged
@@ -530,18 +529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1797579877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1797579876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36a77f582dd0e8643b5544f9db3820b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1797579878
 SpriteRenderer:
   m_ObjectHideFlags: 0
