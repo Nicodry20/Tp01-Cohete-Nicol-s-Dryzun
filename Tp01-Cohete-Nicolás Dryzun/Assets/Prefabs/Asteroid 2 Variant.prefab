@@ -7,6 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114844989993240588, guid: 999143b6b77c9874494753011c732cf1,
+        type: 3}
+      propertyPath: minScale
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114844989993240588, guid: 999143b6b77c9874494753011c732cf1,
+        type: 3}
+      propertyPath: maxScale
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114844989993240588, guid: 999143b6b77c9874494753011c732cf1,
+        type: 3}
+      propertyPath: fallingSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3497701685890199762, guid: 999143b6b77c9874494753011c732cf1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -806,7 +821,7 @@ PrefabInstance:
     - target: {fileID: 3497701685890199765, guid: 999143b6b77c9874494753011c732cf1,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid 2
+      value: Asteroid 2 Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 999143b6b77c9874494753011c732cf1, type: 3}

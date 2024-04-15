@@ -341,6 +341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cohete
       objectReference: {fileID: 0}
+    - target: {fileID: 2033959093102457072, guid: 5b87eaac6d4a72145a90dfa1cbebd0b4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b87eaac6d4a72145a90dfa1cbebd0b4, type: 3}
 --- !u!1 &1264454502 stripped
