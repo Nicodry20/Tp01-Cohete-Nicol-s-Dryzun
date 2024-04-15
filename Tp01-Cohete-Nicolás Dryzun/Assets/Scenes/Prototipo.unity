@@ -124,6 +124,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[ASTEROIDSPAWNER]'
       objectReference: {fileID: 0}
+    - target: {fileID: 7218550606342703655, guid: cf32a6562007ef8499bce7a3fe63bb75,
+        type: 3}
+      propertyPath: asteroidPrefab2
+      value: 
+      objectReference: {fileID: 8146987147844898603, guid: 8f72bc5db1953414c83c9b084bd244b7,
+        type: 3}
     - target: {fileID: 7218550606342703672, guid: cf32a6562007ef8499bce7a3fe63bb75,
         type: 3}
       propertyPath: m_LocalPosition.x

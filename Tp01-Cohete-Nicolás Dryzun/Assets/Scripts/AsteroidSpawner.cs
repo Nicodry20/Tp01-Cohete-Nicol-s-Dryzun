@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AsteroidSpawner : MonoBehaviour
 {
+    public GameObject asteroidPrefab2;
     public GameObject asteroidPrefab;
     public Vector3 newPosition;
     public float minX;
@@ -28,6 +29,17 @@ public class AsteroidSpawner : MonoBehaviour
     {
         float randomX = Random.Range(minX, maxX);
         newPosition = new Vector3(randomX, newPosition.y);
+
+        int randomPreFab = Random.Range(0, 2);
+        if (randomPreFab == 0)
+        {
         Instantiate(asteroidPrefab, newPosition, Quaternion.identity);
+
+        }
+        else
+        {
+        Instantiate(asteroidPrefab2, newPosition, Quaternion.identity);
+
+        }
     }
 }
