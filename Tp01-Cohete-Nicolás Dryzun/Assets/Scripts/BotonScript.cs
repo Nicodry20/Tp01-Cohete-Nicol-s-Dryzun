@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BotonScript : MonoBehaviour
 {
@@ -26,11 +27,17 @@ public class BotonScript : MonoBehaviour
         botonNormalGO.SetActive(false);
         botonPresionadoGO.SetActive(true);
         coheteScript.speed = 0.1f;
+        Invoke(nameof(LaunchGameScene), 2.5f);
     }
     private void OnMouseUp()
     {
         //Debug.Log("Realese");
         botonNormalGO.SetActive(true);
         botonPresionadoGO.SetActive(false);
+    }
+
+    void LaunchGameScene()
+    {
+        SceneManager.LoadScene("Escena Juego");
     }
 }

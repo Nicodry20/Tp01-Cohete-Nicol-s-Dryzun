@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AsteroidCollision : MonoBehaviour
 {
@@ -20,10 +21,16 @@ public class AsteroidCollision : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             Destroy(collision.gameObject);
+            Invoke(nameof(LaunchInicialScene), 2);
         }
         else if (collision.gameObject.tag == "Finish")
         {
             Destroy(gameObject);
         }
+    }
+
+    void LaunchInicialScene()
+    {
+        SceneManager.LoadScene("Escena Inicio");
     }
 }

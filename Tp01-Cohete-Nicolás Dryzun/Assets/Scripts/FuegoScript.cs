@@ -17,5 +17,6 @@ public class FuegoScript : MonoBehaviour
     {
         float newScale = Random.Range(minScale, maxScale);
         transform.localScale = new Vector3(newScale, newScale, 0);
+
     }
 }
