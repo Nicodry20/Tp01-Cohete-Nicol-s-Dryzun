@@ -31,6 +31,6 @@ public class AsteroidCollision : MonoBehaviour
 
     void LaunchInicialScene()
     {
-        SceneManager.LoadScene("Escena Inicio");
+        SceneManager.LoadScene("Game Over");
     }
 }
